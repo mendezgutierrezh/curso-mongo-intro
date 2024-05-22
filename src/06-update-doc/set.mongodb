@@ -1,0 +1,10 @@
+use("store");
+
+db.products.updateOne(
+  //Query
+  { _id: 2 },
+  //Operator set
+  { $set: { name: "Product 2 updated", price: 100, tags: ["tag1", "tag2"] } }
+);
+
+//db.products.find();

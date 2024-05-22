@@ -1,0 +1,10 @@
+use("store");
+
+db.products.updateOne(
+  //Query
+  { _id: 2 },
+  //Operator increment solo valor numerico
+  { $inc: { price: 50 } }
+);
+
+

@@ -70,3 +70,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# DB
+/mongo_data
+
+

@@ -1,0 +1,8 @@
+use("store");
+
+db.products.updateOne(
+  //Query
+  { _id: ObjectId("664d5e69f46f0ca44294ab94") },
+  //Operator increment solo valor numerico
+  { $inc: { price: 69 } }
+);
